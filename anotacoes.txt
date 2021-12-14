@@ -1,1 +1,7 @@
+COMANDOS USADOS:
+
 ng new angular-tour-of-heroes
+
+ng generate component heroes
+
+ng generate interface Hero
