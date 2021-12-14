@@ -1,0 +1,8 @@
+<div *ngIf="power">
+    <h2>{{power | uppercase}} Details</h2>
+
+    <div>
+        <label for="hero-name">Hero name: </label>
+        <input id="hero-name" [(ngModel)]="power" placeholder="name">
+    </div>
+</div>
